@@ -3,7 +3,7 @@ const { createCanvas } = require('canvas');
 const seedrandom = require('seedrandom');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080; // Fleek
 
 app.get('/:id?', (req, res) => {
     const { id } = req.params;
