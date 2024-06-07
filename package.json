@@ -1,7 +1,13 @@
 {
+  "name": "pixel-image-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "canvas": "^2.11.2",
-    "express": "^4.19.2",
+    "express": "^4.17.1",
+    "canvas": "^2.6.1",
     "seedrandom": "^3.0.5"
   }
 }
